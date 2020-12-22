@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
 ::selection {
   color: white;
   background-color: brown;
@@ -14,7 +16,7 @@
 }
 
 body {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Roboto Slab", "Helvetica", sans-serif;
   color: #394655;
   background: #fffef7;
 }
