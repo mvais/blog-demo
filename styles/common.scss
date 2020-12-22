@@ -2,12 +2,12 @@
 
 ::selection {
   color: white;
-  background-color: brown;
+  background-color: #d55d2b;
 }
 
 ::-moz-selection {
   color: white;
-  background-color: brown;
+  background-color: #d55d2b;
 }
 
 * {
@@ -26,14 +26,14 @@ body {
   blockquote {
     margin: 16px 0;
     padding: 0 1em;
-    color: brown;
+    color: #d55d2b;
     border-left: 0.25em solid;
   }
 }
 
 a {
   text-decoration: none;
-  color: brown;
+  color: #d55d2b;
 
   &:hover {
     cursor: pointer;
