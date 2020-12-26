@@ -4,14 +4,20 @@
 
 .posts {
   list-style: none;
+
   .post {
+    display: flex;
     margin-top: 8px;
-    line-height: 14px;
+    line-height: 20px;
     &-date {
       font-size: 14px;
       color: #a8a8a8;
       display: inline-block;
       padding: 0 1em 1em 0;
+      flex: 0 0 6em;
+    }
+    &-title {
+      line-height: 20px;
     }
   }
 }
