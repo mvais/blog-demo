@@ -1,6 +1,4 @@
 .post-container {
-  margin-top: 32px;
-
   header {
     margin-bottom: 16px;
 
@@ -8,6 +6,30 @@
       font-size: 14px;
       color: #a8a8a8;
     }
+  }
+
+  .post-bio {
+    display: flex;
+  }
+
+  .post-author {
+    font-size: .875rem;
+    line-height: 1;
+  }
+
+  .text-dark-muted {
+    color: rgba(51,51,51,.6);
+  }
+
+  .text-base {
+    font-size: 1rem !important;
+  }
+
+  .logo {
+    height: 3.75em;
+    border-radius: 50%;
+    vertical-align: middle;
+    border-style: none;
   }
 
   .content {

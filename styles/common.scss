@@ -24,7 +24,10 @@ body {
 }
 
 .container {
-  margin: 40px 30%;
+  max-width: 38rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
   blockquote {
     margin: 16px 0;
     padding: 0 1em;
@@ -41,6 +44,30 @@ a {
     cursor: pointer;
     text-decoration: underline;
   }
+}
+
+.m-b-1 {
+  margin-bottom: .5rem;
+}
+
+.m-b-2 {
+  margin-bottom: 1rem;
+}
+
+.m-b-4 {
+  margin-bottom: 2rem;
+}
+
+.p-l-1 {
+  padding-left: .5rem;
+}
+
+.p-l-2 {
+  padding-left: 1rem;
+}
+
+.p-l-4 {
+  padding-left: 2rem;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

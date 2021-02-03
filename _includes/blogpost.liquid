@@ -12,12 +12,29 @@
   </head>
   <body>
     <div class="container post-container">
-      <h2>{{ title }}</h2>
-      <span class="post-date">{{ date }}</span>
+      <header>
+        <aside class="post-bio m-b-4">
+          <div>
+            <a href="/">
+              <img class="logo" src="https://avatars.githubusercontent.com/u/5290786" alt="">
+            </a>
+          </div>
+          <div class="post-author p-l-2">
+            <p class="text-base m-b-1">
+              <a href="/">Vais Mahendran</a>
+            </p>
+            <div class="text-dark-muted">
+              <p class="m-b-1">Software developer, naive Canucks fan, and other random stuff.</p>
+              <p>{{ date | date: "%B %d, %Y" | capitalize }}</p>
+            </div>
+          </div>
+        </aside>
+        <h2>{{ title }}</h2>
+      </header>
       <div class='content'>{{ content }}</div>
-      <div class="back-link">
+      {% comment %} <div class="back-link">
         <a href="/">← Back</a>
-      </div>
+      </div> {% endcomment %}
     </div>
   </body>
 </html>
