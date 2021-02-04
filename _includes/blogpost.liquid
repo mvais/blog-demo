@@ -25,16 +25,13 @@
             </p>
             <div class="text-dark-muted">
               <p class="m-b-1">Software developer, naive Canucks fan, and other random stuff.</p>
-              <p>{{ date | date: "%B %d, %Y" | capitalize }}</p>
+              <p>Posted {{ date | date: "%b %d %Y" }}</p>
             </div>
           </div>
         </aside>
         <h2>{{ title }}</h2>
       </header>
       <div class='content'>{{ content }}</div>
-      {% comment %} <div class="back-link">
-        <a href="/">← Back</a>
-      </div> {% endcomment %}
     </div>
   </body>
 </html>
